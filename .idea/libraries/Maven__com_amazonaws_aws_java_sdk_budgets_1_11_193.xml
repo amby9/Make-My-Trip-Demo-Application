@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.amazonaws:aws-java-sdk-budgets:1.11.193">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-budgets/1.11.193/aws-java-sdk-budgets-1.11.193.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-budgets/1.11.193/aws-java-sdk-budgets-1.11.193-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-budgets/1.11.193/aws-java-sdk-budgets-1.11.193-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

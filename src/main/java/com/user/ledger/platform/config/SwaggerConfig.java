@@ -21,16 +21,5 @@ public class SwaggerConfig {
                 .paths(PathSelectors.any())
                 .build();
     }
-//    private ApiInfo metaData() {
-//        ApiInfo apiInfo = new ApiInfo(
-//                "Consumer REST APIs",
-//                "APIs for Consumer",
-//                "0.1",
-//                "Terms of service",
-//                new Contact("Consumer Engineering Team", "https://lazypay.in", "virat.mishra@payu.in"),
-//                "swagger-ui.html",
-//                "swagger-ui.html",null);
-//        return apiInfo;
-//    }
 
 }

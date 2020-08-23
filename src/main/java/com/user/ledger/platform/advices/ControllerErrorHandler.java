@@ -21,7 +21,7 @@ public class ControllerErrorHandler extends ResponseEntityExceptionHandler {
 
     @ExceptionHandler(UserLedgerPlatformException.class)
     ResponseEntity<APIExceptions> handleAPException(UserLedgerPlatformException e, HttpServletResponse response) throws IOException {
-        log.error("ConsumerPlatformException occurred: ",e);
+        log.error("User Ledger Platform Exception occurred: ",e);
         return new ResponseEntity<>(APIExceptions
                 .builder()
                 .title(e.getMessage())

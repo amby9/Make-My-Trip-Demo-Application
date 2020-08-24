@@ -9,6 +9,7 @@ import com.user.ledger.platform.jpaEntity.User;
 import com.user.ledger.platform.jpaEntity.UserNote;
 import com.user.ledger.platform.requests.UserRegistrationOrLoginRequest;
 import com.user.ledger.platform.responses.GenericResponse;
+import com.user.ledger.platform.utils.Util;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.http.HttpStatus;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -52,15 +53,20 @@ public class UserDaoImpl implements UserDao {
         UserNote userNote = userRepository.getUserNoteByUserId(userId);
         if(userNote!=null) {
             List<String> userNotes = new ArrayList<>();
-            userNotes.add(userNote.getNote());
+            userNotes.add(Util.deCode(userNote.getNote()));
             return userNotes;
         } else return new ArrayList<>();
     }
 
     @Override
     public GenericResponse addUserNote(String userId, UserNoteRequest userNoteRequest){
-        UserNote userNote = userRepository.save(UserNote.builder().userId(userId).note(userNoteRequest.getNote()).build());
-        return GenericResponse.builder().status("success").build();
+        try {
+            UserNote userNote = userRepository.save(UserNote.builder().userId(userId).note(Util.enCode(userNoteRequest.getNote())).build());
+            return GenericResponse.builder().status("success").build();
+        } catch (Exception e){
+            log.error("Exception occurred while saving note : ", e);
+            return GenericResponse.builder().status("fail to save note").build();
+        }
     }
 
 }

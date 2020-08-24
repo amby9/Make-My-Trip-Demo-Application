@@ -27,30 +27,30 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public GenericResponse registerUser(UserRegistrationOrLoginRequest userRegistrationOrLoginRequest) {
-        User user = userRepository.getUserByUserId(userRegistrationOrLoginRequest.getUsername());
+        User user = userRepository.getUserByUserId(Util.enCode(userRegistrationOrLoginRequest.getUsername()));
         if (user != null) {
             log.error("User with this userId already exists!");
-            throw new UserLedgerPlatformException(HttpStatus.SC_BAD_REQUEST, ErrorCodes.INTERNAL_SERVER_ERROR);
+            throw new UserLedgerPlatformException(HttpStatus.SC_BAD_REQUEST, ErrorCodes.USER_ID_ALREADY_EXISTS_ERROR);
         }
-        User user1 = userRepository.save(User.builder().userId(userRegistrationOrLoginRequest.getUsername()).password(userRegistrationOrLoginRequest.getPassword()).build());
+        User user1 = userRepository.save(User.builder().userId(Util.enCode(userRegistrationOrLoginRequest.getUsername())).password(Util.enCode(userRegistrationOrLoginRequest.getPassword())).build());
         return GenericResponse.builder().status("account created").build();
     }
 
     @Override
     public GenericResponse loginUser(UserRegistrationOrLoginRequest userRegistrationOrLoginRequest){
-        User user = userRepository.getUserByUserIdAndPassword(userRegistrationOrLoginRequest.getUsername(), userRegistrationOrLoginRequest.getPassword());
+        User user = userRepository.getUserByUserIdAndPassword(Util.enCode(userRegistrationOrLoginRequest.getUsername()), Util.enCode(userRegistrationOrLoginRequest.getPassword()));
         if(user!=null){
             return GenericResponse.builder().status("success").userId(userRegistrationOrLoginRequest.getUsername()).build();
         }
         else {
             log.error("Wrong login credentials provided");
-            throw new UserLedgerPlatformException(HttpStatus.SC_UNAUTHORIZED, ErrorCodes.INTERNAL_SERVER_ERROR);
+            throw new UserLedgerPlatformException(HttpStatus.SC_UNAUTHORIZED, ErrorCodes.WRONG_CREDENTIAL_ERROR);
         }
     }
 
     @Override
     public List<String> getUserNotes(String userId){
-        UserNote userNote = userRepository.getUserNoteByUserId(userId);
+        UserNote userNote = userRepository.getUserNoteByUserId(Util.enCode(userId));
         if(userNote!=null) {
             List<String> userNotes = new ArrayList<>();
             userNotes.add(Util.deCode(userNote.getNote()));
@@ -59,13 +59,17 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public GenericResponse addUserNote(String userId, UserNoteRequest userNoteRequest){
+    public GenericResponse addUserNote(String userId, UserNoteRequest userNoteRequest) {
+        User user = userRepository.getUserByUserId(Util.enCode(userId));
+        if (user == null) {
+            throw new UserLedgerPlatformException(HttpStatus.SC_UNAUTHORIZED, ErrorCodes.WRONG_CREDENTIAL_ERROR);
+        }
         try {
-            UserNote userNote = userRepository.save(UserNote.builder().userId(userId).note(Util.enCode(userNoteRequest.getNote())).build());
+            UserNote userNote = userRepository.save(UserNote.builder().userId(Util.enCode(userId)).note(Util.enCode(userNoteRequest.getNote())).build());
             return GenericResponse.builder().status("success").build();
-        } catch (Exception e){
+        } catch (Exception e) {
             log.error("Exception occurred while saving note : ", e);
-            return GenericResponse.builder().status("fail to save note").build();
+            throw new UserLedgerPlatformException(HttpStatus.SC_INTERNAL_SERVER_ERROR, ErrorCodes.INTERNAL_SERVER_ERROR);
         }
     }
 

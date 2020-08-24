@@ -2,9 +2,6 @@ package com.user.ledger.platform.utils;
 
 import com.amazonaws.util.Base64;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-
 public class Util {
 
     public static String enCode(String data)

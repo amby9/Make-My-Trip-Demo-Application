@@ -1,0 +1,546 @@
+[2020-10-25 15:00:18.377][Thread-2][,][INFO][o.s.s.c.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-10-25 15:00:18.393][Thread-2][,][INFO][o.s.o.j.LocalContainerEntityManagerFactoryBean:597] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-10-25 15:00:18.416][Thread-2][,][INFO][c.z.h.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+[2020-10-25 15:00:18.436][Thread-2][,][INFO][c.z.h.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+[2020-10-25 15:00:40.494][main][,][INFO][c.u.l.p.MakeMyTripApplication:50] Starting MakeMyTripApplication on AmberSrivastavaMac.local with PID 7374 (/Users/amber.srivastava/Make-My-Trip-Demo/target/classes started by amber.srivastava in /Users/amber.srivastava/Make-My-Trip-Demo)
+[2020-10-25 15:00:40.500][main][,][INFO][c.u.l.p.MakeMyTripApplication:675] No active profile set, falling back to default profiles: default
+[2020-10-25 15:00:52.492][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-10-25 15:00:52.494][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-10-25 15:00:52.532][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:182] Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+[2020-10-25 15:00:52.556][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-10-25 15:00:52.558][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-10-25 15:00:52.603][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:182] Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+[2020-10-25 15:00:53.248][main][,][INFO][o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a6821312] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-10-25 15:00:53.829][main][,][INFO][o.s.b.w.e.t.TomcatWebServer:90] Tomcat initialized with port(s): 8080 (http)
+[2020-10-25 15:00:53.855][main][,][INFO][o.a.c.c.StandardService:173] Starting service [Tomcat]
+[2020-10-25 15:00:53.855][main][,][INFO][o.a.c.c.StandardEngine:173] Starting Servlet Engine: Apache Tomcat/9.0.12
+[2020-10-25 15:00:53.870][main][,][INFO][o.a.c.c.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/amber.srivastava/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2020-10-25 15:00:54.168][main][,][INFO][o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+[2020-10-25 15:00:54.170][main][,][INFO][o.s.w.c.ContextLoader:285] Root WebApplicationContext: initialization completed in 13554 ms
+[2020-10-25 15:00:54.381][main][,][INFO][o.s.b.w.s.ServletRegistrationBean:186] Servlet dispatcherServlet mapped to [/]
+[2020-10-25 15:00:54.390][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'characterEncodingFilter' to: [/*]
+[2020-10-25 15:00:54.392][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2020-10-25 15:00:54.393][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'formContentFilter' to: [/*]
+[2020-10-25 15:00:54.394][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'requestContextFilter' to: [/*]
+[2020-10-25 15:00:54.657][main][,][INFO][c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
+[2020-10-25 15:00:54.662][main][,][WARN][c.z.h.u.DriverDataSource:68] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2020-10-25 15:00:54.846][main][,][INFO][c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
+[2020-10-25 15:00:54.948][main][,][INFO][o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2020-10-25 15:00:55.048][main][,][INFO][o.h.Version:46] HHH000412: Hibernate Core {5.3.7.Final}
+[2020-10-25 15:00:55.050][main][,][INFO][o.h.c.Environment:213] HHH000206: hibernate.properties not found
+[2020-10-25 15:00:55.334][main][,][INFO][o.h.a.c.Version:49] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2020-10-25 15:00:55.646][main][,][INFO][o.h.d.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2020-10-25 15:00:55.957][main][,][INFO][o.s.o.j.LocalContainerEntityManagerFactoryBean:415] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-10-25 15:00:56.391][main][,][WARN][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration:234] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-10-25 15:00:56.560][main][,][INFO][s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2020-10-25 15:00:56.936][main][,][INFO][o.s.s.c.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-10-25 15:00:57.780][main][,][INFO][s.d.s.w.p.DocumentationPluginsBootstrapper:147] Context refreshed
+[2020-10-25 15:00:57.805][main][,][INFO][s.d.s.w.p.DocumentationPluginsBootstrapper:150] Found 1 custom documentation plugin(s)
+[2020-10-25 15:00:57.884][main][,][INFO][s.d.s.w.s.ApiListingReferenceScanner:41] Scanning for api listing references
+[2020-10-25 15:00:58.215][main][,][INFO][o.s.b.w.e.t.TomcatWebServer:204] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-10-25 15:00:58.229][main][,][INFO][c.u.l.p.MakeMyTripApplication:59] Started MakeMyTripApplication in 18.991 seconds (JVM running for 21.357)
+[2020-10-25 15:01:24.474][http-nio-8080-exec-1][,][INFO][o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-25 15:01:24.475][http-nio-8080-exec-1][,][INFO][o.s.w.s.DispatcherServlet:521] Initializing Servlet 'dispatcherServlet'
+[2020-10-25 15:01:24.491][http-nio-8080-exec-1][,][INFO][o.s.w.s.DispatcherServlet:543] Completed initialization in 15 ms
+[2020-10-25 15:04:53.053][Thread-2][,][INFO][o.s.s.c.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-10-25 15:04:53.070][Thread-2][,][INFO][o.s.o.j.LocalContainerEntityManagerFactoryBean:597] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-10-25 15:04:53.079][Thread-2][,][INFO][c.z.h.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+[2020-10-25 15:04:53.117][Thread-2][,][INFO][c.z.h.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+[2020-10-25 15:05:10.658][main][,][INFO][c.u.l.p.MakeMyTripApplication:50] Starting MakeMyTripApplication on AmberSrivastavaMac.local with PID 7769 (/Users/amber.srivastava/Make-My-Trip-Demo/target/classes started by amber.srivastava in /Users/amber.srivastava/Make-My-Trip-Demo)
+[2020-10-25 15:05:10.670][main][,][INFO][c.u.l.p.MakeMyTripApplication:675] No active profile set, falling back to default profiles: default
+[2020-10-25 15:05:23.631][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-10-25 15:05:23.634][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-10-25 15:05:23.671][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:182] Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+[2020-10-25 15:05:23.697][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-10-25 15:05:23.699][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-10-25 15:05:23.729][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:182] Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+[2020-10-25 15:05:24.478][main][,][INFO][o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f0d733c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-10-25 15:05:25.110][main][,][INFO][o.s.b.w.e.t.TomcatWebServer:90] Tomcat initialized with port(s): 8080 (http)
+[2020-10-25 15:05:25.143][main][,][INFO][o.a.c.c.StandardService:173] Starting service [Tomcat]
+[2020-10-25 15:05:25.144][main][,][INFO][o.a.c.c.StandardEngine:173] Starting Servlet Engine: Apache Tomcat/9.0.12
+[2020-10-25 15:05:25.159][main][,][INFO][o.a.c.c.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/amber.srivastava/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2020-10-25 15:05:25.520][main][,][INFO][o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+[2020-10-25 15:05:25.521][main][,][INFO][o.s.w.c.ContextLoader:285] Root WebApplicationContext: initialization completed in 14661 ms
+[2020-10-25 15:05:25.644][main][,][INFO][o.s.b.w.s.ServletRegistrationBean:186] Servlet dispatcherServlet mapped to [/]
+[2020-10-25 15:05:25.652][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'characterEncodingFilter' to: [/*]
+[2020-10-25 15:05:25.653][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2020-10-25 15:05:25.654][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'formContentFilter' to: [/*]
+[2020-10-25 15:05:25.654][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'requestContextFilter' to: [/*]
+[2020-10-25 15:05:25.930][main][,][INFO][c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
+[2020-10-25 15:05:25.938][main][,][WARN][c.z.h.u.DriverDataSource:68] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2020-10-25 15:05:26.117][main][,][INFO][c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
+[2020-10-25 15:05:26.182][main][,][INFO][o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2020-10-25 15:05:26.301][main][,][INFO][o.h.Version:46] HHH000412: Hibernate Core {5.3.7.Final}
+[2020-10-25 15:05:26.304][main][,][INFO][o.h.c.Environment:213] HHH000206: hibernate.properties not found
+[2020-10-25 15:05:26.603][main][,][INFO][o.h.a.c.Version:49] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2020-10-25 15:05:26.843][main][,][INFO][o.h.d.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2020-10-25 15:05:27.174][main][,][INFO][o.s.o.j.LocalContainerEntityManagerFactoryBean:415] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-10-25 15:05:27.609][main][,][WARN][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration:234] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-10-25 15:05:27.828][main][,][INFO][s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2020-10-25 15:05:28.576][main][,][INFO][o.s.s.c.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-10-25 15:05:29.955][main][,][INFO][s.d.s.w.p.DocumentationPluginsBootstrapper:147] Context refreshed
+[2020-10-25 15:05:29.996][main][,][INFO][s.d.s.w.p.DocumentationPluginsBootstrapper:150] Found 1 custom documentation plugin(s)
+[2020-10-25 15:05:30.076][main][,][INFO][s.d.s.w.s.ApiListingReferenceScanner:41] Scanning for api listing references
+[2020-10-25 15:05:30.411][main][,][INFO][o.s.b.w.e.t.TomcatWebServer:204] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-10-25 15:05:30.419][main][,][INFO][c.u.l.p.MakeMyTripApplication:59] Started MakeMyTripApplication in 21.232 seconds (JVM running for 23.86)
+[2020-10-25 15:05:36.527][http-nio-8080-exec-1][,][INFO][o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-25 15:05:36.528][http-nio-8080-exec-1][,][INFO][o.s.w.s.DispatcherServlet:521] Initializing Servlet 'dispatcherServlet'
+[2020-10-25 15:05:36.541][http-nio-8080-exec-1][,][INFO][o.s.w.s.DispatcherServlet:543] Completed initialization in 13 ms
+[2020-10-25 15:06:56.558][Thread-2][,][INFO][o.s.s.c.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-10-25 15:06:56.565][Thread-2][,][INFO][o.s.o.j.LocalContainerEntityManagerFactoryBean:597] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-10-25 15:06:56.569][Thread-2][,][INFO][c.z.h.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+[2020-10-25 15:06:56.589][Thread-2][,][INFO][c.z.h.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+[2020-10-25 15:07:05.728][main][,][INFO][c.u.l.p.MakeMyTripApplication:50] Starting MakeMyTripApplication on AmberSrivastavaMac.local with PID 7916 (/Users/amber.srivastava/Make-My-Trip-Demo/target/classes started by amber.srivastava in /Users/amber.srivastava/Make-My-Trip-Demo)
+[2020-10-25 15:07:05.742][main][,][INFO][c.u.l.p.MakeMyTripApplication:675] No active profile set, falling back to default profiles: default
+[2020-10-25 15:07:16.213][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-10-25 15:07:16.215][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-10-25 15:07:16.242][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:182] Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+[2020-10-25 15:07:16.259][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-10-25 15:07:16.261][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-10-25 15:07:16.295][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:182] Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+[2020-10-25 15:07:16.838][main][,][INFO][o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a5241b01] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-10-25 15:07:17.326][main][,][INFO][o.s.b.w.e.t.TomcatWebServer:90] Tomcat initialized with port(s): 8080 (http)
+[2020-10-25 15:07:17.354][main][,][INFO][o.a.c.c.StandardService:173] Starting service [Tomcat]
+[2020-10-25 15:07:17.355][main][,][INFO][o.a.c.c.StandardEngine:173] Starting Servlet Engine: Apache Tomcat/9.0.12
+[2020-10-25 15:07:17.368][main][,][INFO][o.a.c.c.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/amber.srivastava/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2020-10-25 15:07:17.583][main][,][INFO][o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+[2020-10-25 15:07:17.586][main][,][INFO][o.s.w.c.ContextLoader:285] Root WebApplicationContext: initialization completed in 11659 ms
+[2020-10-25 15:07:17.668][main][,][INFO][o.s.b.w.s.ServletRegistrationBean:186] Servlet dispatcherServlet mapped to [/]
+[2020-10-25 15:07:17.679][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'characterEncodingFilter' to: [/*]
+[2020-10-25 15:07:17.680][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2020-10-25 15:07:17.680][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'formContentFilter' to: [/*]
+[2020-10-25 15:07:17.681][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'requestContextFilter' to: [/*]
+[2020-10-25 15:07:18.089][main][,][INFO][c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
+[2020-10-25 15:07:18.094][main][,][WARN][c.z.h.u.DriverDataSource:68] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2020-10-25 15:07:18.262][main][,][INFO][c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
+[2020-10-25 15:07:18.325][main][,][INFO][o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2020-10-25 15:07:18.425][main][,][INFO][o.h.Version:46] HHH000412: Hibernate Core {5.3.7.Final}
+[2020-10-25 15:07:18.428][main][,][INFO][o.h.c.Environment:213] HHH000206: hibernate.properties not found
+[2020-10-25 15:07:18.699][main][,][INFO][o.h.a.c.Version:49] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2020-10-25 15:07:18.946][main][,][INFO][o.h.d.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2020-10-25 15:07:19.348][main][,][INFO][o.s.o.j.LocalContainerEntityManagerFactoryBean:415] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-10-25 15:07:19.733][main][,][WARN][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration:234] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-10-25 15:07:19.893][main][,][INFO][s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2020-10-25 15:07:20.246][main][,][INFO][o.s.s.c.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-10-25 15:07:20.974][main][,][INFO][s.d.s.w.p.DocumentationPluginsBootstrapper:147] Context refreshed
+[2020-10-25 15:07:20.995][main][,][INFO][s.d.s.w.p.DocumentationPluginsBootstrapper:150] Found 1 custom documentation plugin(s)
+[2020-10-25 15:07:21.044][main][,][INFO][s.d.s.w.s.ApiListingReferenceScanner:41] Scanning for api listing references
+[2020-10-25 15:07:21.268][main][,][INFO][o.s.b.w.e.t.TomcatWebServer:204] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-10-25 15:07:21.274][main][,][INFO][c.u.l.p.MakeMyTripApplication:59] Started MakeMyTripApplication in 16.42 seconds (JVM running for 18.477)
+[2020-10-25 15:07:25.250][http-nio-8080-exec-1][,][INFO][o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-25 15:07:25.251][http-nio-8080-exec-1][,][INFO][o.s.w.s.DispatcherServlet:521] Initializing Servlet 'dispatcherServlet'
+[2020-10-25 15:07:25.264][http-nio-8080-exec-1][,][INFO][o.s.w.s.DispatcherServlet:543] Completed initialization in 12 ms
+[2020-10-25 15:08:26.893][Thread-2][,][INFO][o.s.s.c.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-10-25 15:08:26.897][Thread-2][,][INFO][o.s.o.j.LocalContainerEntityManagerFactoryBean:597] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-10-25 15:08:26.907][Thread-2][,][INFO][c.z.h.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+[2020-10-25 15:08:26.956][Thread-2][,][INFO][c.z.h.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+[2020-10-25 15:08:36.961][main][,][INFO][c.u.l.p.MakeMyTripApplication:50] Starting MakeMyTripApplication on AmberSrivastavaMac.local with PID 8010 (/Users/amber.srivastava/Make-My-Trip-Demo/target/classes started by amber.srivastava in /Users/amber.srivastava/Make-My-Trip-Demo)
+[2020-10-25 15:08:36.975][main][,][INFO][c.u.l.p.MakeMyTripApplication:675] No active profile set, falling back to default profiles: default
+[2020-10-25 15:08:48.537][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-10-25 15:08:48.541][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-10-25 15:08:48.566][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:182] Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+[2020-10-25 15:08:48.611][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-10-25 15:08:48.614][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-10-25 15:08:48.643][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:182] Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+[2020-10-25 15:08:49.182][main][,][INFO][o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$63f5debe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-10-25 15:08:49.680][main][,][INFO][o.s.b.w.e.t.TomcatWebServer:90] Tomcat initialized with port(s): 8080 (http)
+[2020-10-25 15:08:49.706][main][,][INFO][o.a.c.c.StandardService:173] Starting service [Tomcat]
+[2020-10-25 15:08:49.706][main][,][INFO][o.a.c.c.StandardEngine:173] Starting Servlet Engine: Apache Tomcat/9.0.12
+[2020-10-25 15:08:49.719][main][,][INFO][o.a.c.c.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/amber.srivastava/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2020-10-25 15:08:50.060][main][,][INFO][o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+[2020-10-25 15:08:50.060][main][,][INFO][o.s.w.c.ContextLoader:285] Root WebApplicationContext: initialization completed in 12925 ms
+[2020-10-25 15:08:50.110][main][,][INFO][o.s.b.w.s.ServletRegistrationBean:186] Servlet dispatcherServlet mapped to [/]
+[2020-10-25 15:08:50.143][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'characterEncodingFilter' to: [/*]
+[2020-10-25 15:08:50.147][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2020-10-25 15:08:50.148][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'formContentFilter' to: [/*]
+[2020-10-25 15:08:50.149][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'requestContextFilter' to: [/*]
+[2020-10-25 15:08:50.391][main][,][INFO][c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
+[2020-10-25 15:08:50.396][main][,][WARN][c.z.h.u.DriverDataSource:68] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2020-10-25 15:08:50.538][main][,][INFO][c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
+[2020-10-25 15:08:50.592][main][,][INFO][o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2020-10-25 15:08:50.710][main][,][INFO][o.h.Version:46] HHH000412: Hibernate Core {5.3.7.Final}
+[2020-10-25 15:08:50.712][main][,][INFO][o.h.c.Environment:213] HHH000206: hibernate.properties not found
+[2020-10-25 15:08:50.938][main][,][INFO][o.h.a.c.Version:49] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2020-10-25 15:08:51.096][main][,][INFO][o.h.d.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2020-10-25 15:08:51.454][main][,][INFO][o.s.o.j.LocalContainerEntityManagerFactoryBean:415] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-10-25 15:08:51.825][main][,][WARN][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration:234] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-10-25 15:08:51.976][main][,][INFO][s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2020-10-25 15:08:52.350][main][,][INFO][o.s.s.c.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-10-25 15:08:53.106][main][,][INFO][s.d.s.w.p.DocumentationPluginsBootstrapper:147] Context refreshed
+[2020-10-25 15:08:53.127][main][,][INFO][s.d.s.w.p.DocumentationPluginsBootstrapper:150] Found 1 custom documentation plugin(s)
+[2020-10-25 15:08:53.178][main][,][INFO][s.d.s.w.s.ApiListingReferenceScanner:41] Scanning for api listing references
+[2020-10-25 15:08:53.416][main][,][INFO][o.s.b.w.e.t.TomcatWebServer:204] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-10-25 15:08:53.422][main][,][INFO][c.u.l.p.MakeMyTripApplication:59] Started MakeMyTripApplication in 17.647 seconds (JVM running for 19.767)
+[2020-10-25 15:08:57.287][http-nio-8080-exec-1][,][INFO][o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-25 15:08:57.289][http-nio-8080-exec-1][,][INFO][o.s.w.s.DispatcherServlet:521] Initializing Servlet 'dispatcherServlet'
+[2020-10-25 15:08:57.303][http-nio-8080-exec-1][,][INFO][o.s.w.s.DispatcherServlet:543] Completed initialization in 14 ms
+[2020-10-25 15:10:46.694][Thread-2][,][INFO][o.s.s.c.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-10-25 15:10:46.698][Thread-2][,][INFO][o.s.o.j.LocalContainerEntityManagerFactoryBean:597] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-10-25 15:10:46.707][Thread-2][,][INFO][c.z.h.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+[2020-10-25 15:10:46.753][Thread-2][,][INFO][c.z.h.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+[2020-10-25 15:11:00.129][main][,][INFO][c.u.l.p.MakeMyTripApplication:50] Starting MakeMyTripApplication on AmberSrivastavaMac.local with PID 8257 (/Users/amber.srivastava/Make-My-Trip-Demo/target/classes started by amber.srivastava in /Users/amber.srivastava/Make-My-Trip-Demo)
+[2020-10-25 15:11:00.136][main][,][INFO][c.u.l.p.MakeMyTripApplication:675] No active profile set, falling back to default profiles: default
+[2020-10-25 15:11:10.566][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-10-25 15:11:10.569][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-10-25 15:11:10.595][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:182] Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+[2020-10-25 15:11:10.617][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-10-25 15:11:10.619][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-10-25 15:11:10.651][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:182] Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+[2020-10-25 15:11:11.230][main][,][INFO][o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6a1574a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-10-25 15:11:11.722][main][,][INFO][o.s.b.w.e.t.TomcatWebServer:90] Tomcat initialized with port(s): 8080 (http)
+[2020-10-25 15:11:11.750][main][,][INFO][o.a.c.c.StandardService:173] Starting service [Tomcat]
+[2020-10-25 15:11:11.751][main][,][INFO][o.a.c.c.StandardEngine:173] Starting Servlet Engine: Apache Tomcat/9.0.12
+[2020-10-25 15:11:11.764][main][,][INFO][o.a.c.c.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/amber.srivastava/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2020-10-25 15:11:11.972][main][,][INFO][o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+[2020-10-25 15:11:11.973][main][,][INFO][o.s.w.c.ContextLoader:285] Root WebApplicationContext: initialization completed in 11609 ms
+[2020-10-25 15:11:12.030][main][,][INFO][o.s.b.w.s.ServletRegistrationBean:186] Servlet dispatcherServlet mapped to [/]
+[2020-10-25 15:11:12.036][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'characterEncodingFilter' to: [/*]
+[2020-10-25 15:11:12.037][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2020-10-25 15:11:12.050][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'formContentFilter' to: [/*]
+[2020-10-25 15:11:12.050][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'requestContextFilter' to: [/*]
+[2020-10-25 15:11:12.458][main][,][INFO][c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
+[2020-10-25 15:11:12.462][main][,][WARN][c.z.h.u.DriverDataSource:68] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2020-10-25 15:11:12.625][main][,][INFO][c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
+[2020-10-25 15:11:12.686][main][,][INFO][o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2020-10-25 15:11:12.777][main][,][INFO][o.h.Version:46] HHH000412: Hibernate Core {5.3.7.Final}
+[2020-10-25 15:11:12.779][main][,][INFO][o.h.c.Environment:213] HHH000206: hibernate.properties not found
+[2020-10-25 15:11:13.022][main][,][INFO][o.h.a.c.Version:49] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2020-10-25 15:11:13.230][main][,][INFO][o.h.d.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2020-10-25 15:11:13.542][main][,][INFO][o.s.o.j.LocalContainerEntityManagerFactoryBean:415] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-10-25 15:11:13.915][main][,][WARN][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration:234] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-10-25 15:11:14.075][main][,][INFO][s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2020-10-25 15:11:14.419][main][,][INFO][o.s.s.c.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-10-25 15:11:15.176][main][,][INFO][s.d.s.w.p.DocumentationPluginsBootstrapper:147] Context refreshed
+[2020-10-25 15:11:15.200][main][,][INFO][s.d.s.w.p.DocumentationPluginsBootstrapper:150] Found 1 custom documentation plugin(s)
+[2020-10-25 15:11:15.250][main][,][INFO][s.d.s.w.s.ApiListingReferenceScanner:41] Scanning for api listing references
+[2020-10-25 15:11:15.480][main][,][INFO][o.s.b.w.e.t.TomcatWebServer:204] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-10-25 15:11:15.486][main][,][INFO][c.u.l.p.MakeMyTripApplication:59] Started MakeMyTripApplication in 16.266 seconds (JVM running for 18.256)
+[2020-10-25 15:11:18.186][http-nio-8080-exec-1][,][INFO][o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-25 15:11:18.187][http-nio-8080-exec-1][,][INFO][o.s.w.s.DispatcherServlet:521] Initializing Servlet 'dispatcherServlet'
+[2020-10-25 15:11:18.201][http-nio-8080-exec-1][,][INFO][o.s.w.s.DispatcherServlet:543] Completed initialization in 14 ms
+[2020-10-25 15:11:26.479][http-nio-8080-exec-2][,][ERROR][c.u.l.p.d.i.RouteDaoImpl:173] Exception occurred while calling shortest path function :
+java.lang.ArrayIndexOutOfBoundsException: Index 11111111 out of bounds for length 9
+	at com.user.ledger.platform.dao.impl.RouteDaoImpl.dijkstra(RouteDaoImpl.java:48)
+	at com.user.ledger.platform.dao.impl.RouteDaoImpl.shortestRoute(RouteDaoImpl.java:170)
+	at com.user.ledger.platform.dao.impl.RouteDaoImpl$$FastClassBySpringCGLIB$$2945d0af.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.user.ledger.platform.dao.impl.RouteDaoImpl$$EnhancerBySpringCGLIB$$5784a3ba.shortestRoute(<generated>)
+	at com.user.ledger.platform.services.impl.RouteServiceImpl.shortestRoute(RouteServiceImpl.java:22)
+	at com.user.ledger.platform.controllers.RouteController.getShortestRoute(RouteController.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2020-10-25 15:11:26.487][http-nio-8080-exec-2][,][ERROR][c.u.l.p.a.ControllerErrorHandler:24] User Ledger Platform Exception occurred: 
+com.user.ledger.platform.exceptions.MakeMyTripPlatformException: Something went wrong
+	at com.user.ledger.platform.dao.impl.RouteDaoImpl.shortestRoute(RouteDaoImpl.java:174)
+	at com.user.ledger.platform.dao.impl.RouteDaoImpl$$FastClassBySpringCGLIB$$2945d0af.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.user.ledger.platform.dao.impl.RouteDaoImpl$$EnhancerBySpringCGLIB$$5784a3ba.shortestRoute(<generated>)
+	at com.user.ledger.platform.services.impl.RouteServiceImpl.shortestRoute(RouteServiceImpl.java:22)
+	at com.user.ledger.platform.controllers.RouteController.getShortestRoute(RouteController.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2020-10-25 15:13:10.569][Thread-2][,][INFO][o.s.s.c.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-10-25 15:13:10.572][Thread-2][,][INFO][o.s.o.j.LocalContainerEntityManagerFactoryBean:597] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-10-25 15:13:10.583][Thread-2][,][INFO][c.z.h.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+[2020-10-25 15:13:10.622][Thread-2][,][INFO][c.z.h.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+[2020-10-25 15:13:22.551][main][,][INFO][c.u.l.p.MakeMyTripApplication:50] Starting MakeMyTripApplication on AmberSrivastavaMac.local with PID 8435 (/Users/amber.srivastava/Make-My-Trip-Demo/target/classes started by amber.srivastava in /Users/amber.srivastava/Make-My-Trip-Demo)
+[2020-10-25 15:13:22.578][main][,][INFO][c.u.l.p.MakeMyTripApplication:675] No active profile set, falling back to default profiles: default
+[2020-10-25 15:13:32.895][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-10-25 15:13:32.897][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-10-25 15:13:32.925][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:182] Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+[2020-10-25 15:13:32.944][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-10-25 15:13:32.946][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-10-25 15:13:32.980][main][,][INFO][o.s.d.r.c.RepositoryConfigurationDelegate:182] Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+[2020-10-25 15:13:33.525][main][,][INFO][o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$284a172] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-10-25 15:13:34.001][main][,][INFO][o.s.b.w.e.t.TomcatWebServer:90] Tomcat initialized with port(s): 8080 (http)
+[2020-10-25 15:13:34.029][main][,][INFO][o.a.c.c.StandardService:173] Starting service [Tomcat]
+[2020-10-25 15:13:34.029][main][,][INFO][o.a.c.c.StandardEngine:173] Starting Servlet Engine: Apache Tomcat/9.0.12
+[2020-10-25 15:13:34.042][main][,][INFO][o.a.c.c.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/amber.srivastava/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2020-10-25 15:13:34.402][main][,][INFO][o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+[2020-10-25 15:13:34.403][main][,][INFO][o.s.w.c.ContextLoader:285] Root WebApplicationContext: initialization completed in 11556 ms
+[2020-10-25 15:13:34.457][main][,][INFO][o.s.b.w.s.ServletRegistrationBean:186] Servlet dispatcherServlet mapped to [/]
+[2020-10-25 15:13:34.463][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'characterEncodingFilter' to: [/*]
+[2020-10-25 15:13:34.464][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2020-10-25 15:13:34.465][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'formContentFilter' to: [/*]
+[2020-10-25 15:13:34.465][main][,][INFO][o.s.b.w.s.FilterRegistrationBean:248] Mapping filter: 'requestContextFilter' to: [/*]
+[2020-10-25 15:13:34.713][main][,][INFO][c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
+[2020-10-25 15:13:34.718][main][,][WARN][c.z.h.u.DriverDataSource:68] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2020-10-25 15:13:34.880][main][,][INFO][c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
+[2020-10-25 15:13:34.944][main][,][INFO][o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2020-10-25 15:13:35.034][main][,][INFO][o.h.Version:46] HHH000412: Hibernate Core {5.3.7.Final}
+[2020-10-25 15:13:35.037][main][,][INFO][o.h.c.Environment:213] HHH000206: hibernate.properties not found
+[2020-10-25 15:13:35.276][main][,][INFO][o.h.a.c.Version:49] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2020-10-25 15:13:35.452][main][,][INFO][o.h.d.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2020-10-25 15:13:35.779][main][,][INFO][o.s.o.j.LocalContainerEntityManagerFactoryBean:415] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-10-25 15:13:36.139][main][,][WARN][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration:234] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-10-25 15:13:36.302][main][,][INFO][s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2020-10-25 15:13:36.652][main][,][INFO][o.s.s.c.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-10-25 15:13:37.386][main][,][INFO][s.d.s.w.p.DocumentationPluginsBootstrapper:147] Context refreshed
+[2020-10-25 15:13:37.408][main][,][INFO][s.d.s.w.p.DocumentationPluginsBootstrapper:150] Found 1 custom documentation plugin(s)
+[2020-10-25 15:13:37.456][main][,][INFO][s.d.s.w.s.ApiListingReferenceScanner:41] Scanning for api listing references
+[2020-10-25 15:13:37.676][main][,][INFO][o.s.b.w.e.t.TomcatWebServer:204] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-10-25 15:13:37.682][main][,][INFO][c.u.l.p.MakeMyTripApplication:59] Started MakeMyTripApplication in 16.048 seconds (JVM running for 18.089)
+[2020-10-25 15:13:41.348][http-nio-8080-exec-1][,][INFO][o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-25 15:13:41.350][http-nio-8080-exec-1][,][INFO][o.s.w.s.DispatcherServlet:521] Initializing Servlet 'dispatcherServlet'
+[2020-10-25 15:13:41.366][http-nio-8080-exec-1][,][INFO][o.s.w.s.DispatcherServlet:543] Completed initialization in 16 ms
+[2020-10-25 15:13:41.529][http-nio-8080-exec-1][,][ERROR][c.u.l.p.d.i.RouteDaoImpl:173] Exception occurred while calling shortest path function :
+java.lang.ArrayIndexOutOfBoundsException: Index 11111111 out of bounds for length 9
+	at com.user.ledger.platform.dao.impl.RouteDaoImpl.dijkstra(RouteDaoImpl.java:48)
+	at com.user.ledger.platform.dao.impl.RouteDaoImpl.shortestRoute(RouteDaoImpl.java:170)
+	at com.user.ledger.platform.dao.impl.RouteDaoImpl$$FastClassBySpringCGLIB$$2945d0af.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.user.ledger.platform.dao.impl.RouteDaoImpl$$EnhancerBySpringCGLIB$$f875c6ce.shortestRoute(<generated>)
+	at com.user.ledger.platform.services.impl.RouteServiceImpl.shortestRoute(RouteServiceImpl.java:22)
+	at com.user.ledger.platform.controllers.RouteController.getShortestRoute(RouteController.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2020-10-25 15:13:41.536][http-nio-8080-exec-1][,][ERROR][c.u.l.p.a.ControllerErrorHandler:24] User Ledger Platform Exception occurred: 
+com.user.ledger.platform.exceptions.MakeMyTripPlatformException: No Path Found for this Route!
+	at com.user.ledger.platform.dao.impl.RouteDaoImpl.shortestRoute(RouteDaoImpl.java:174)
+	at com.user.ledger.platform.dao.impl.RouteDaoImpl$$FastClassBySpringCGLIB$$2945d0af.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.user.ledger.platform.dao.impl.RouteDaoImpl$$EnhancerBySpringCGLIB$$f875c6ce.shortestRoute(<generated>)
+	at com.user.ledger.platform.services.impl.RouteServiceImpl.shortestRoute(RouteServiceImpl.java:22)
+	at com.user.ledger.platform.controllers.RouteController.getShortestRoute(RouteController.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)

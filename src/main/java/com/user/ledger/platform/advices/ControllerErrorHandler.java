@@ -2,7 +2,7 @@ package com.user.ledger.platform.advices;
 
 import com.user.ledger.platform.enums.ErrorCodes;
 import com.user.ledger.platform.exceptions.APIExceptions;
-import com.user.ledger.platform.exceptions.UserLedgerPlatformException;
+import com.user.ledger.platform.exceptions.MakeMyTripPlatformException;
 import lombok.extern.slf4j.Slf4j;
 
 import org.apache.commons.lang3.exception.ExceptionUtils;
@@ -19,8 +19,8 @@ import java.io.IOException;
 @Slf4j
 public class ControllerErrorHandler extends ResponseEntityExceptionHandler {
 
-    @ExceptionHandler(UserLedgerPlatformException.class)
-    ResponseEntity<APIExceptions> handleAPException(UserLedgerPlatformException e, HttpServletResponse response) throws IOException {
+    @ExceptionHandler(MakeMyTripPlatformException.class)
+    ResponseEntity<APIExceptions> handleAPException(MakeMyTripPlatformException e, HttpServletResponse response) throws IOException {
         log.error("User Ledger Platform Exception occurred: ",e);
         return new ResponseEntity<>(APIExceptions
                 .builder()

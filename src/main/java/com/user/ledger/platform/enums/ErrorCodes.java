@@ -5,7 +5,7 @@ import lombok.Getter;
 @Getter
 public enum ErrorCodes {
     INTERNAL_SERVER_ERROR("Something went wrong","Please retry once and let us know if this happens again","Something went wrong"),
-    USER_ID_ALREADY_EXISTS_ERROR("User with this userId already exists!","Please retry once with another user id","User with this userId already exists!"),
+    NO_PATH_POSSIBLE_ERROR("No Path Found for this Route!","Please retry once with another Source & Destination Pair","No Path Found for this Route!"),
     WRONG_CREDENTIAL_ERROR("Wrong credentials provided","Please retry once with correct credentials","Wrong credentials provided");
     private final String message;
     private final String reason;

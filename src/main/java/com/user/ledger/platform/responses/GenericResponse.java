@@ -14,6 +14,5 @@ import lombok.NoArgsConstructor;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class GenericResponse {
-    private String status;
-    private String userId;
+    private String result;
 }

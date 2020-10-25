@@ -1,4 +1,4 @@
-package com.user.ledger.platform.responses;
+package com.make.my.trip.demo.platform.responses;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;

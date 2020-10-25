@@ -1,9 +1,7 @@
-package com.user.ledger.platform.services;
+package com.make.my.trip.demo.platform.services;
 
-import com.user.ledger.platform.responses.GenericResponse;
+import com.make.my.trip.demo.platform.responses.GenericResponse;
 import org.springframework.stereotype.Component;
-
-import java.util.List;
 
 @Component
 public interface RouteService {

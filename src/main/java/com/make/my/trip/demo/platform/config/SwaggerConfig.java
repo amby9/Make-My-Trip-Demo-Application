@@ -1,4 +1,4 @@
-package com.user.ledger.platform.config;
+package com.make.my.trip.demo.platform.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

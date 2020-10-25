@@ -1,12 +1,10 @@
-package com.user.ledger.platform.services.impl;
+package com.make.my.trip.demo.platform.services.impl;
 
-import com.user.ledger.platform.dao.RouteDao;
-import com.user.ledger.platform.responses.GenericResponse;
-import com.user.ledger.platform.services.RouteService;
+import com.make.my.trip.demo.platform.responses.GenericResponse;
+import com.make.my.trip.demo.platform.dao.RouteDao;
+import com.make.my.trip.demo.platform.services.RouteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class RouteServiceImpl implements RouteService {

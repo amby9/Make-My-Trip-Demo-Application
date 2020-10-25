@@ -1,9 +1,7 @@
-package com.user.ledger.platform.dao;
+package com.make.my.trip.demo.platform.dao;
 
-import com.user.ledger.platform.responses.GenericResponse;
+import com.make.my.trip.demo.platform.responses.GenericResponse;
 import org.springframework.stereotype.Repository;
-
-import java.util.List;
 
 @Repository
 public interface RouteDao {

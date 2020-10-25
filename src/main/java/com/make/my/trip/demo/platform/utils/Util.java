@@ -1,4 +1,4 @@
-package com.user.ledger.platform.utils;
+package com.make.my.trip.demo.platform.utils;
 
 import com.amazonaws.util.Base64;
 

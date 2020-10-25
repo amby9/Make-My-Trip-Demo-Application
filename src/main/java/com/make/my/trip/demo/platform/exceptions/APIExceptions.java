@@ -1,4 +1,4 @@
-package com.user.ledger.platform.exceptions;
+package com.make.my.trip.demo.platform.exceptions;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;

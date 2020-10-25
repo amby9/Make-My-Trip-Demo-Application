@@ -1,4 +1,4 @@
-package com.user.ledger.platform.enums;
+package com.make.my.trip.demo.platform.enums;
 
 import org.apache.http.HttpStatus;
 

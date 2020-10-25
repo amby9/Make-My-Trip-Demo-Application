@@ -1,6 +1,6 @@
-package com.user.ledger.platform.exceptions;
+package com.make.my.trip.demo.platform.exceptions;
 
-import com.user.ledger.platform.enums.ErrorCodes;
+import com.make.my.trip.demo.platform.enums.ErrorCodes;
 
 public class MakeMyTripPlatformException extends RuntimeException {
     private final int status;

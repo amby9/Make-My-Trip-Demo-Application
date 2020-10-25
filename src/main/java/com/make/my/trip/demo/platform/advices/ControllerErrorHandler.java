@@ -1,8 +1,8 @@
-package com.user.ledger.platform.advices;
+package com.make.my.trip.demo.platform.advices;
 
-import com.user.ledger.platform.enums.ErrorCodes;
-import com.user.ledger.platform.exceptions.APIExceptions;
-import com.user.ledger.platform.exceptions.MakeMyTripPlatformException;
+import com.make.my.trip.demo.platform.exceptions.APIExceptions;
+import com.make.my.trip.demo.platform.exceptions.MakeMyTripPlatformException;
+import com.make.my.trip.demo.platform.enums.ErrorCodes;
 import lombok.extern.slf4j.Slf4j;
 
 import org.apache.commons.lang3.exception.ExceptionUtils;

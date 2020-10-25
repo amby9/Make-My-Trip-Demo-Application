@@ -1,9 +1,9 @@
-package com.user.ledger.platform.dao.impl;
+package com.make.my.trip.demo.platform.dao.impl;
 
-import com.user.ledger.platform.dao.RouteDao;
-import com.user.ledger.platform.enums.ErrorCodes;
-import com.user.ledger.platform.exceptions.MakeMyTripPlatformException;
-import com.user.ledger.platform.responses.GenericResponse;
+import com.make.my.trip.demo.platform.dao.RouteDao;
+import com.make.my.trip.demo.platform.enums.ErrorCodes;
+import com.make.my.trip.demo.platform.exceptions.MakeMyTripPlatformException;
+import com.make.my.trip.demo.platform.responses.GenericResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Repository;

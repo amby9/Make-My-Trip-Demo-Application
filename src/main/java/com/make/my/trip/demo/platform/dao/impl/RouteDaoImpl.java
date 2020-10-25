@@ -19,8 +19,8 @@ public class RouteDaoImpl implements RouteDao {
     // algorithm for a graph represented
     // using adjacency matrix
     // representation
-    private static String dijkstra(int[][] adjacencyMatrix,
-                                 int startVertex, int endVertex)
+    private static String shortestPathAlgorithm(int[][] adjacencyMatrix,
+                                                int startVertex, int endVertex)
     {
         int nVertices = adjacencyMatrix[0].length;
 
@@ -117,7 +117,6 @@ public class RouteDaoImpl implements RouteDao {
                                       int[] parents, int endVertex)
     {
         int nVertices = distances.length;
-        System.out.print("Vertex\t Distance\tPath");
 
         for (int vertexIndex = 0;
              vertexIndex < nVertices;
@@ -125,9 +124,6 @@ public class RouteDaoImpl implements RouteDao {
         {
             if (vertexIndex != startVertex && vertexIndex==endVertex)
             {
-                System.out.print("\n" + startVertex + " -> ");
-                System.out.print(vertexIndex + " \t\t ");
-                System.out.print(distances[vertexIndex] + "\t\t");
                 String path="";
                 path = printPath(vertexIndex, parents, path);
                 return path;
@@ -150,7 +146,6 @@ public class RouteDaoImpl implements RouteDao {
             return path;
         }
         path = printPath(parents[currentVertex], parents, path);
-        System.out.print(currentVertex + " ");
         path=path.concat(currentVertex + " ");
         return path;
     }
@@ -167,7 +162,7 @@ public class RouteDaoImpl implements RouteDao {
                     {0, 0, 0, 14, 0, 2, 0, 1, 6},
                     {8, 11, 0, 0, 0, 0, 1, 0, 7},
                     {0, 0, 2, 0, 0, 0, 6, 7, 0}};
-            String path = dijkstra(adjacencyMatrix, Integer.parseInt(source), Integer.parseInt(destination));
+            String path = shortestPathAlgorithm(adjacencyMatrix, Integer.parseInt(source), Integer.parseInt(destination));
             return GenericResponse.builder().result(path).build();
         } catch (Exception e){
             log.error("Exception occurred while calling shortest path function :", e);
